@@ -1,0 +1,13 @@
+{
+    "ignorePatterns": [
+      {
+        "pattern": "^http://example.net"
+      }
+    ],
+    "timeout": "20s",
+    "retryOn429": true,
+    "retryCount": 5,
+    "config-file": "mlc_config.json",
+    "fallbackRetryDelay": "60s",
+    "aliveStatusCodes": [200, 206, 403]
+  }
